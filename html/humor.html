@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medidor de Humor | Saúde Mental e Bem-Estar</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="conteudo.html">Conteúdo educativo</a>
+    <a href="humor.html">Medidor de humor</a>
+    <a href="ajuda.html">Canais de ajuda</a>
+    <a href="../cadastro/cadastro.html">Cadastro</a>
+  </nav>
+
+  <main>
+    <section>
+      <h1>Medidor de Humor</h1>
+      <p>
+        Faça um check-in rápido para registrar como você está se sentindo hoje.
+        Isso pode te ajudar a perceber padrões ao longo do tempo.
+      </p>
+      <p><strong>Aviso:</strong> este recurso é educativo e não substitui apoio profissional.</p>
+    </section>
+
+    <section>
+      <h2>Check-in do dia</h2>
+
+      <form class="card" action="#" method="post">
+        <p><strong>Como você está se sentindo agora?</strong></p>
+
+        <div class="mood-options">
+          <label class="mood-item">
+            <input type="radio" name="humor" value="1" required>
+            1 — Muito mal
+          </label>
+
+          <label class="mood-item">
+            <input type="radio" name="humor" value="2">
+            2 — Mal
+          </label>
+
+          <label class="mood-item">
+            <input type="radio" name="humor" value="3">
+            3 — Ok
+          </label>
+
+          <label class="mood-item">
+            <input type="radio" name="humor" value="4">
+            4 — Bem
+          </label>
+
+          <label class="mood-item">
+            <input type="radio" name="humor" value="5">
+            5 — Muito bem
+          </label>
+        </div>
+
+        <p style="margin-top: 14px;"><strong>Quer adicionar uma observação?</strong> (opcional)</p>
+        <textarea class="input" name="observacao" rows="4" placeholder="Ex.: dormi pouco, prova amanhã, conversei com um amigo..."></textarea>
+
+        <p style="margin-top: 14px;"><strong>O que pode ajudar agora?</strong> (opcional)</p>
+        <select class="input" name="acao">
+          <option value="">Selecione uma opção</option>
+          <option value="pausa">Fazer uma pausa de 5 minutos</option>
+          <option value="respirar">Respiração lenta por 1 minuto</option>
+          <option value="agua">Beber água</option>
+          <option value="caminhada">Caminhar um pouco</option>
+          <option value="conversar">Conversar com alguém de confiança</option>
+        </select>
+
+        <button class="btn-simples" type="submit">Registrar</button>
+
+        <p class="muted" style="margin-top: 10px;">
+          (Depois, quando você for usar JavaScript, dá para salvar esse registro e exibir um histórico.)
+        </p>
+      </form>
+    </section>
+
+    <section>
+      <h2>Dica rápida</h2>
+      <div class="card">
+        <p><strong>Respiração 4–2–6:</strong> inspire por 4s, segure 2s e expire por 6s. Repita 3 vezes.</p>
+        <p>
+          Se você sentir que precisa de apoio, veja os
+          <a href="index.html#contato">canais de ajuda</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Saúde Mental e Bem-Estar. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

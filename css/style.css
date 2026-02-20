@@ -1,0 +1,175 @@
+:root {
+  --azul: #64b5f6;
+  --verde: #4db6ac;
+  --lilas: #ce93d8;
+  --branco: #ffffff;
+}
+
+/* Página */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--branco);
+  color: #222;
+}
+
+/* Menu */
+.navbar {
+  background: var(--azul);
+  padding: 12px;
+  text-align: center;
+}
+
+.navbar a {
+  color: var(--branco);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+
+  padding-bottom: 70px; /* espaço pro footer fixo */
+}
+
+/* Seções */
+section {
+  background: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+/* Títulos */
+h1 {
+  color: #111;
+}
+
+h2 {
+  color: var(--verde);
+}
+
+/* Destaque simples para "Canais de ajuda" */
+#contato {
+  border-left: 8px solid var(--lilas);
+}
+
+/* Rodapé */
+footer {
+  background: var(--verde);
+  color: var(--branco);
+  text-align: center;
+  padding: 12px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.video {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.video iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.mood-options {
+  margin-top: 10px;
+}
+
+.mood-item {
+  display: block;
+  margin: 8px 0;
+  color: #222;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-simples {
+  margin-top: 14px;
+  background: var(--azul);
+  color: var(--branco);
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-simples:hover {
+  text-decoration: underline;
+}
+
+.muted {
+  color: #666;
+  font-size: 14px;
+}
+
+.card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.btn-simples {
+  background: var(--azul);
+  color: var(--branco);
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-simples:hover {
+  text-decoration: underline;
+}
+
+.msg {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.erro {
+  color: #b00020;
+}
+
+.sucesso {
+  color: #0b6b3a;
+}
+
+.check {
+  display: block;
+  margin-top: 10px;
+}
+
+.muted {
+  color: #666;
+  font-size: 14px;
+}

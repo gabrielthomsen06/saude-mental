@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Saúde Mental e Bem-Estar</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="login.html">Login</a>
+  </nav>
+
+  <main>
+    <section>
+      <h1>Login</h1>
+      <p>Digite um e-mail válido e uma senha com no mínimo 8 caracteres.</p>
+    </section>
+
+    <section>
+      <div class="card">
+        <form id="formLogin">
+          <label for="email"><strong>E-mail</strong></label><br>
+          <input class="input" type="email" id="email" placeholder="ex: nome@email.com" required>
+          <p class="msg" id="msgEmail"></p>
+
+          <label for="password"><strong>Senha</strong></label><br>
+          <input class="input" type="password" id="password" placeholder="mínimo 8 caracteres" required>
+          <p class="msg" id="msgSenha"></p>
+
+          <button class="btn-simples" type="submit">Entrar</button>
+          <p class="msg" id="mensagem"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Saúde Mental e Bem-Estar. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="login.js"></script>
+</body>
+</html>
