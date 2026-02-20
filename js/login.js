@@ -42,6 +42,15 @@ form.addEventListener("submit", (e) => {
 
   if (!ok) return;
 
+  const usuarios = JSON.parse(localStorage.getItem("usuarios") || "[]");
+  const usuario = usuarios.find(u => u.email === email && u.senha === senha);
+
+  if (!usuario) {
+    mensagem.textContent = "E-mail ou senha incorretos.";
+    mensagem.className = "msg erro";
+    return;
+  }
+
   sessionStorage.setItem("logged", "true");
   sessionStorage.setItem("userEmail", email);
 
