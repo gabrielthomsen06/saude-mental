@@ -32,7 +32,7 @@
     <section>
       <h2>Check-in do dia</h2>
 
-      <form class="card" action="#" method="post">
+      <form class="card" id="formHumor">
         <p><strong>Como você está se sentindo agora?</strong></p>
 
         <div class="mood-options">
@@ -75,6 +75,8 @@
           <option value="conversar">Conversar com alguém de confiança</option>
         </select>
 
+        <p class="msg" id="msgResultado"></p>
+
         <button class="btn-simples" type="submit">Registrar</button>
 
         <p class="muted" style="margin-top: 10px;">
@@ -99,8 +101,6 @@
     <p>&copy; 2026 Saúde Mental e Bem-Estar. Todos os direitos reservados.</p>
   </footer>
   <script>setupNavbarForProtectedPages();</script>
-
-  <p class="msg" id="msgResultado"></p>
   
   <script src="../js/humor.js"></script>
 </body>

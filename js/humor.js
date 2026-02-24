@@ -1,4 +1,4 @@
-const form = document.querySelector("form");
+const form = document.getElementById("formHumor"); 
 const msgResultado = document.getElementById("msgResultado");
 
 form.addEventListener("submit", (e) => {
